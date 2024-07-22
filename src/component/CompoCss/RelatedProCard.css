@@ -1,0 +1,102 @@
+.RelatedCard-Parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.Related-card {
+    width: 27.99rem;
+    height: 37.57rem;
+    border: 2px solid #E6896D;
+    border-radius: 0.8rem;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.Related-card>.btn-wrapper {
+    width: 21.8rem;
+    height: 29.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Related-card>.btn-wrapper>button {
+    width: 4.487rem;
+    height: 1.741rem;
+    border-radius: 6.697rem;
+    background: #12A05C;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 0.804rem;
+    line-height: 1.205rem;
+}
+
+.Related-card>img {
+    width: 21.8rem;
+    height: 26rem;
+    border-radius: 0.8rem;
+}
+
+.Related-card>button {
+    width: 12.6rem;
+    height: 3.8rem;
+    border-radius: 7px;
+    background: linear-gradient(to right,
+            #DC8064 0%,
+            #E98C70 17%,
+            #FB9E82 34%,
+            #FDBB9F 50%,
+            #FFCAAE 67%,
+            #F8AD92 84%,
+            #F19176 100%);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.641rem;
+    padding: 1.4rem;
+}
+
+.RelatedCard-Detail {
+    width: 27.99rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-direction: column;
+    margin-top: 2.4rem;
+}
+
+.RelatedCard-Detail>h3:nth-child(1) {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #FA5C98;
+}
+
+.RelatedCard-Detail>h3:nth-child(2) {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: #E28569;
+}
+
+.RelatedCard-Detail>h3>span {
+    font-weight: 400;
+    color: #D9D9D9;
+}

@@ -1,0 +1,77 @@
+.productSpecific-card {
+    width: 27.9rem;
+    max-width: 27.9rem;
+    min-width: 27.9rem;
+    border-radius: 0.8rem;
+    border: 2px solid #FB9E82 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 2px 6px 0 #000000 15%;
+    margin-bottom: 2.8rem;
+    cursor: pointer;
+}
+
+.productSpecific-card>img {
+    width: 27.9rem;
+    height: 39.3rem;
+    border-radius: 0.8rem;
+    object-fit: cover;
+}
+
+.productSpecific-card>.productDescription {
+    width: 28.3rem;
+    height: 12.2rem;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 0.4rem;
+}
+
+.productDescription>img {
+    width: 8rem;
+    height: 1.6rem;
+    object-fit: cover;
+}
+
+.productSpecific-card>.productDescription>button {
+    height: 3rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #C0590E;
+    border: none;
+    background-color: transparent;
+}
+
+.productSpecific-card>.productDescription>h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #FA5C98;
+    text-transform: uppercase;
+}
+
+.productSpecific-card>.productDescription>p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #000000;
+}
+
+.productSpecific-card>button {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #FA5C98;
+    border: none;
+    background: transparent;
+}

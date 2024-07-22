@@ -1,0 +1,49 @@
+.blog-section {
+    width: 1480px;
+    height: 783px;
+    margin: 0 auto;
+}
+
+.blog-section>h3 {
+    text-align: center;
+    height: 6.8rem;
+    color: #000000;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 4.559rem;
+    line-height: 6.839rem;
+    margin: 4rem 0;
+    margin-top: 4.77rem;
+}
+
+.blog-wrapper {
+    width: 1180px;
+    height: 631px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .blog-section {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+    }
+
+    .blog-section>h3 {
+        font-size: 3.66rem;
+        line-height: 6rem;
+    }
+
+    .blog-wrapper {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

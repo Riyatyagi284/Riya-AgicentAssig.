@@ -1,0 +1,55 @@
+.pagination-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7.7rem 0;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.page-item {
+    margin: 0 5px;
+}
+
+.page-link {
+    width: 4.2rem;
+    height: 4.2rem;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.page-link:hover {
+    background-color: #FFCAAE;
+    color: white;
+}
+
+.page-item.active .page-link {
+    background-color: #FFCAAE;
+    color: white;
+    border-color: #FFCAAE;
+}
+
+.pagi-next {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: #E08468;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-left: 1rem;
+}

@@ -1,0 +1,207 @@
+.footer-wrapper {
+    width: 1480px;
+    height: 497px;
+    background: #FA5C98;
+    border: 0 0 1px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top {
+    width: 1480px;
+    height: 141px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1.55px solid #ffffff;
+    padding-top: 1rem;
+}
+
+.footer-top>P {
+    width: 28.4rem;
+    height: 3rem;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.footer-top>img {}
+
+.subscribe-input {
+    width: 59.2rem;
+    height: 4.9rem;
+    border-radius: 0.8rem;
+    background: #F2F2F2;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    padding: 0.8rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.subscribe-input>input {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.758rem;
+    background: #F2F2F2;
+    color: #CDCDCD;
+    padding-left: 1rem;
+    outline: none;
+    border: none;
+}
+
+.subscribe-input>button {
+    width: 11.36rem;
+    height: 3.6rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    background-color: #FA5C98;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+}
+
+/* Footer2 styling */
+
+.footer-bottom {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 1480px;
+    height: 35.6rem;
+    padding-top: 8rem;
+}
+
+.footCol-parent {
+    display: flex;
+    gap: 6.6rem;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.footCol-parent>.col1,
+.footCol-parent>.col2,
+.footCol-parent>.col3,
+.footCol-parent>.col4,
+.footCol-parent>.col5 {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    width: 18rem;
+    height: 13.8rem;
+}
+
+.footCol-parent>.col1>h4,
+.footCol-parent>.col2>h4,
+.footCol-parent>.col3>h4,
+.footCol-parent>.col4>h4,
+.footCol-parent>.col5>h4 {
+    width: auto;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.344rem;
+    margin-bottom: 1.5rem;
+}
+
+.col1>a,
+.col2>a,
+.col3>a,
+.col4>a,
+.col5>a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2.406rem;
+    margin-bottom: 0.7rem;
+}
+
+.footer-bottom-left {
+    width: 740px;
+    height: 322px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+/* Responsive Styling Starts here */
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .footer-wrapper {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-top {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2.6rem 0;
+    }
+
+    .subscribe-input {
+        width: 90%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        width: 100%;
+        padding: 4rem 0;
+        height: auto;
+    }
+
+    .footCol-parent {
+        flex-direction: column;
+        gap: 0;
+        height: auto;
+    }
+
+    .footCol-parent>.col1,
+    .footCol-parent>.col2,
+    .footCol-parent>.col3,
+    .footCol-parent>.col4,
+    .footCol-parent>.col5 {
+        margin-bottom: 2rem;
+        height: auto;
+        width: 100%;
+    }
+    .col1>a, .col2>a, .col3>a, .col4>a, .col5>a {
+        width: 100%;
+        font-size: 1.62rem;
+        line-height: 3rem;
+    }
+}
+
+@media screen and (min-width: 1480px) {  
+    .footer-wrapper, .footer-top, .footer-bottom, .footCol-parent {
+        width: 100%;
+    }
+    .footer-bottom, .footCol-parent {
+        justify-content: center;
+    }
+}

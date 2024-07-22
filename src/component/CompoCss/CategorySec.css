@@ -1,0 +1,80 @@
+.category-section {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+    width: 119.2rem;
+    margin: 0 auto;
+    padding: 3rem 0;
+    padding-top: 3.99rem;
+}
+
+.category-section>h3 {
+    margin-left: 18rem;
+    width: 31.2rem;
+    height: 3rem;
+    text-align: left;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #000000;
+}
+
+.category-cardWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 31.1rem;
+    width: 1480px;
+}
+
+/* Responsive Styling */
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+    .category-section {
+        width: 100%;
+    }
+
+    .category-section>h3 {
+        font-size: 3.66rem;
+        line-height: 6rem;
+        height: auto;
+        margin: 2rem 0;
+        margin-top: 0;
+        margin-left: 3.6rem;
+    }
+
+    .category-cardWrapper {
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 441px) and (max-width:600px) {
+    .category-section>h3 {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width:768px) {
+    .category-section>h3 {
+        width: 100%;
+        margin-left: 8%;
+    }
+}
+
+@media screen and (min-width: 1480px) {
+    .category-cardWrapper {
+        width: 100%;
+    }
+    .category-section>h3 {
+       margin-left: 2.6%;
+    }
+}
